@@ -1,0 +1,267 @@
+* {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+.primary-color {
+    color: #659DBD;
+}
+
+.secondary-color {
+    color: #ffd70e;
+}
+
+.third-color {
+    color: white;
+}
+
+.forth-color {
+    color: #0b4161;
+}
+
+.bg-primary-color {
+    background-color: #448fbb;
+}
+
+.bg-secondary-color {
+    background-color: #d1d8db;
+}
+
+/* NAVBAR */
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar a:hover {
+    color: #ffda1b;
+}
+
+.navbar-brand {
+    display: flex;
+    text-decoration: none;
+}
+
+.navbar-brand span {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.nav-link {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-bottom: 2px solid #448fbb;
+}
+
+.nav-link:hover {
+    color: #ffe250;
+    border-bottom: 2px solid #ffe250;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar-toggler i {
+    font-size: 30px;
+}
+
+/* Slider */
+#slider {
+    margin-top: 60px;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item img {
+    filter: brightness(0.6);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%)
+}
+
+.carousel-caption h5 {
+    font-size: 16px;
+    text-shadow: 2px 2px #000000;
+    letter-spacing: 2px;
+}
+
+.carousel-caption .btn {
+    border-radius: 0;
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    opacity: 0.9;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #2f80af;
+}
+
+@media (min-width: 425px) {
+    .carousel-caption {
+        top: 50%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .carousel-caption .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 55px;
+        margin-bottom: 35px;
+    }
+
+    .carousel-caption .btn {
+        padding: 15px 30px;
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+}
+
+/* Serviços */
+#services {
+    padding-bottom: 70px;
+}
+
+#services .card {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#services .card i {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+#services .card-title {
+    margin-bottom: 30px;
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
+#services .card-text {
+    letter-spacing: 2px;
+}
+
+.title {
+    font-size: 50px;
+    letter-spacing: 4px;
+    padding: 70px 0;
+    font-weight: 800;
+}
+
+/* Destinos */
+#destiny .card-text {
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+#destiny .btn {
+    border-radius: 0;
+    font-weight: 100;
+    padding: 15px 30px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    transition: .5s;
+    margin-bottom: 40px;
+}
+
+#destiny .btn:hover {
+    background-color: #2f80af;
+}
+
+#destiny .card {
+    position: relative;
+    cursor: pointer;
+}
+
+#destiny .card:hover #card-hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+#card-hover {
+    position: absolute;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(226, 242, 255, 0.753);
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    opacity: 0;
+}
+
+#card-hover i {
+    font-size: 40px;
+}
+
+/* NewsLetter */
+#newsletter {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+#newsletter .row {
+    display: flex;
+    align-items: center;
+}
+
+#newsletter p {
+    font-size: 32px;
+}
+
+#newsletter .btn {
+    border-radius: 0;
+}
+
+/* Footer */
+#footer {
+    padding: 70px 0;
+}
+
+#social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#social-icons i {
+    font-size: 26px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#social-icons i:hover {
+    color: #ffd70e;
+}
+
+#footer p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
