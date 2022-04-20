@@ -1,6 +1,6 @@
 # iTravel
 
-This responsive web site was built to practice Bootstrap framework.
+This simple responsive web site was built to practice Bootstrap framework.
 
 ## Live
 
